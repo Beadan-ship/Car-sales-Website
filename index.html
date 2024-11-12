@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Frank & Lin Motor Dealers</title>
+</head>
+
+ 
+<body>
+    <header>
+        
+        <h1>Frank & Lin Motor Dealers</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="file:///C:/Users/admin/Desktop/Web%20Projects/about.html" class="elementor-item">About us</a></li>
+          </ul> 
+        </nav>
+    </header>
+</body>
+</html>
+
+<main>
+   
+   <div class="slogan"> 
+    <p>
+   Driven  by <div class="quality">Quality</div>, Powered by <div class="trust">Trust</div>, Experience <div class="excellence">Excellence</div> at Every Turn!
+    </p>
+   </div>
+
+   <style>
+    .slogan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family:sans-serif;
+        padding-top: 50px;
+ 
+    }
+   </style>
+   <style>
+    .quality, .trust, .excellence{
+        font-weight:bold ;
+        padding-right: 8px;
+        padding-left: 8px;
+        color:brown;
+        font-family:cursive ;
+    }
+   </style>
+   <div class=axela><img src=" images/axela.jpg"></div>
+   
+   <style>
+    .axela{
+        display: flex; /* Use flexbox layout */
+        justify-content: center; /* Center the images horizontally */
+        padding-top: 50px;
+  }
+    </style>
+
+        <a href="https://www.kaiandkaro.com/vehicles?model__make__vehicle_type=Automobile">
+            <button class="view-cars">View Cars</button>
+          </a>
+          
+        <style>
+            .view-cars, .sell-car, .questions {
+                color: white;
+                background-color: black;
+                border-width: 1px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius:3px;
+                cursor:pointer;
+                margin-left: 150px;
+                margin-right: 8px;
+                transition:0.5s;
+                vertical-align: top;
+            }
+
+            .sell-car, .questions:hover{
+            transition:0.6s;
+                color: burlywood;
+            }
+        </style>
+
+
+<button class="sell-car" onclick="openFormInNewTab()">Sell Your Car</button>
+
+<script>
+function openFormInNewTab() {
+  const newTab = window.open("", "_blank");
+
+  // Write the structured form into the new tab
+  newTab.document.write(`
+    <html>
+      <head>
+        <title>Sell Your Car</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+          }
+          #carForm {
+            max-width: 500px;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          #carForm h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+          }
+          .form-item {
+            margin-bottom: 15px;
+          }
+          .form-item label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+          }
+          .form-item input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+          }
+          .submit-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          .submit-button:hover {
+            background-color: #45a049;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="carForm">
+          <h2>Sell Your Car</h2>
+          <form>
+            <div class="form-item">
+              <label for="carMake">1. Car Make:</label>
+              <input type="text" id="carMake" name="carMake" required>
+            </div>
+
+            <div class="form-item">
+              <label for="carModel">2. Car Model:</label>
+              <input type="text" id="carModel" name="carModel" required>
+            </div>
+
+            <div class="form-item">
+              <label for="carYear">3. Year:</label>
+              <input type="number" id="carYear" name="carYear" required>
+            </div>
+
+            <div class="form-item">
+              <label for="carPrice">4. Price:</label>
+              <input type="number" id="carPrice" name="carPrice" required>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+          </form>
+        </div>
+      </body>
+    </html>
+  `);
+
+  newTab.document.close();
+}
+</script>
+
+    <button class="questions">FAQs</button>
+
+        
+
+    
+</main>
+

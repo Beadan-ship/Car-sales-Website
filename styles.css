@@ -1,0 +1,53 @@
+header{
+  background-color: black;
+  font-style: italic;
+  font-size: 30px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+
+
+
+nav li{
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: medium;
+  transition:0.6s;
+
+}
+
+nav a:hover{
+  color: burlywood;
+  transition:0.6s;
+
+}
+
+
+ 
+.elementor-item{
+ 
+  color: white;
+  text-decoration: none;
+ 
+  transition: 0.6s;
+}
+
+.elementor-item:hover{
+  transition: 0.6s;
+  color: burlywood;
+
+
+
+
